@@ -23,7 +23,7 @@ Comprueba que el componente List muestra correctamente el nombre pasado por prop
 
 * **Explicación del Test:** Con el arrange selecciona la pelicula con nota 10 desde el array y la renderiza usando render(), con el assert usa la funcion getByText() con el nombre para ver donde esta el titulo que se muestra y con ese titulo comprueba que esta en el documento y que el elemento tiene el texto en rojo cuando la nota es 10.
 
-> ![Imagen de prueba ejercicio 1](image.png)
+> ![Imagen de prueba ejercicio 1](Actividad1Tests.png)
 
 ## Actividad [2]
 
