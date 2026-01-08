@@ -8,7 +8,7 @@ describe("Componente Hola", () => {
         expect(screen.getByText('Hola Emilio')).toBeInTheDocument()
     })
     it('no muestra el nombre correctamente', () => {
-        render(<Hola nombre="Emilioo" />)
+        render(<Hola nombre="Emilio" />)
         expect(screen.getByText('Hola Emilio')).toBeInTheDocument()
     })
 });
